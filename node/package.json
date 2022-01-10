@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "policies:external": "nodemon policies/external.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "buffer": "^6.0.3",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "fetch-blob": "^3.1.3",
+    "helmet-csp": "^2.9.4",
+    "nodemon": "^2.0.2"
+  }
+}
